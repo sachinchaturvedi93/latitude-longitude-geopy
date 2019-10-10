@@ -16,5 +16,6 @@ This is based on Python 3.
 2. Used `unidecode` for changing accented characters. For example, the locations mentioned in my `data.csv` file are from Costa Rica and they have a lot of accented characters in the city names.
 3. Created a function `do_geocode` to handle **Geocoder Timed Out Error**. Don't forget to *import GeocoderTimedOut* using this `from geopy.exc import GeocoderTimedOut`.
 4. Used `pandas` for `DataFrame` operations.
+5. `data.csv` is the example of input file. `LatLong.csv` is the example of the output file.
 
 Have Fun ! :smile:
